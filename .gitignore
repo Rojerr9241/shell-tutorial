@@ -1,0 +1,34 @@
+# --- System Files ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.nfs*
+
+# --- Script Outputs & Logs ---
+*.log
+*.tmp
+*.temp
+*.out
+debug.txt
+
+# --- Environment & Secrets (CRITICAL) ---
+# Never commit your passwords or PATs!
+.env
+.env.local
+secrets.sh
+auth.json
+*.pem
+*.key
+
+# --- Data & Compressed Files ---
+# Often better to keep large data out of Git
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.7z
+
+# --- Python (if you mix shell and python) ---
+__pycache__/
+*.py[cod]
